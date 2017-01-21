@@ -25,11 +25,20 @@ last = L.pop()      # [1,2,3,'4',4,5,6,7]
 
 #5. Rimozione per posizione
 
-third = L.pop(2)
+third = L.pop(3)    # [1,2,3,4,5,6,7]
+
 
 #6. Rimozione con del
 
-del L[3]            #[1,2,3,'4',4,5,6,7]
+del L[3]            # [1,2,3,5,6,7] rimozione singola
+
+del L[0:2]          # [3,5,6,7]     rimozione multipla
+
+#7. Rimozione multipla con sezionamento
+
+L[1:3] = []         # [3,7]
+
+#Nota:  L[1:] = [] e' diverso da L[1] = []
 
 #7. altri metodi: 
 #
