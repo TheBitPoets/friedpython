@@ -27,7 +27,7 @@ for c in "ciao":
 #   la funzione map() applica una funzione a ogni elemento
 #   di una sequenza restituendo una nuova lista
 
-res = list(map(abs, [-1,-1-3]))
+res = map(abs, [-1,-2,-3])
 
 #con ciclo for
 
