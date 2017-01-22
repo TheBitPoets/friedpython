@@ -11,7 +11,7 @@ for x in [1,2,3,4]:
 #
 #   mapputura di lista: meccanimo per crare nuove liste
 #   applicando una espressione ad ogni elemento di una
-#   sequenza: lita, stringa, tupla
+#   sequenza: lista, stringa, tupla
 
 res = [c*4 for x in "ciao"] # ["cccc", "iiii", "aaaa", "oooo"]
 
