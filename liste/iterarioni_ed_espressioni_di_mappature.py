@@ -9,7 +9,7 @@ for x in [1,2,3,4]:
 
 #3. Itarazione lista: mapputura di lista
 #
-#   mapputura di lista: meccanimo per crare nuove liste
+#   mappatura di lista: meccanimo per crare nuove liste
 #   applicando una espressione ad ogni elemento di una
 #   sequenza: lista, stringa, tupla
 
