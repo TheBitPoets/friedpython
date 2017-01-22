@@ -1,4 +1,4 @@
-#1. appartenza
+#1. Appartenza: in
 
 3 in [1,2,3,4] #True|False
 
