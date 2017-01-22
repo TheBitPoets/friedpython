@@ -42,27 +42,27 @@ L[1:3] = []         # [3,7]
 
 #Nota:  L[1:] = [] e' diverso da L[1] = []
 
-#7. altri metodi: 
+#  altri metodi: 
 #
-#   a. L.reverse() | reversed()
-#   b. L.sort() | sorted()
-#   c. index()
+#   - L.reverse() | reversed()
+#   - L.sort() | sorted()
+#   - index()
 
-#a.
-#   L.reverse() modifica sul posto, non crea nuova lista
-#   reversed()  crea nuova lista
+#3. Inversione
+#   3.1 L.reverse() modifica sul posto, non crea nuova lista
+#   3.2 reversed()  crea nuova lista
 L.reverse()
 
 LL = list(reversed(L))
 
-#b.
-#   L.sort() utilizza il metodo di confronto standart di Python
-#   quindi confronti tra stringhe ascendente. Per modificare il
-#   comportamento dell'ordinamento con argomenti keyword key e reverse.
+#4. Ordinamento
+#   4.1 L.sort() utilizza il metodo di confronto standart di Python
+#       quindi confronti tra stringhe ascendente. Per modificare il
+#       comportamento dell'ordinamento con argomenti keyword key e reverse.
 #
-#   key e' una funziona che accetta un solo argomento e restituisce
-#   il valore da utilizzare per l'ordinamento
-#   reverse e' un booleano e stabilisce se l'ordinamento e' decrescente
+#       key e' una funziona che accetta un solo argomento e restituisce
+#       il valore da utilizzare per l'ordinamento
+#       reverse e' un booleano e stabilisce se l'ordinamento e' decrescente
 
 L = ["abc", "ABD", "aBe"]
 
@@ -80,6 +80,8 @@ L.sort(key=str.lower, reverse=True) # ["aBe","ABD","abc"] conversione e
 #                   senza ritornare nulla (None). Quindi fare questo:
 #                   L = L.append(4) ci fa perdere il riferimento ala lista
 #                   L e' None adesso.
+
+#   4.2 sorted()
 
 sorted(L, key=str.lower, reverse=True) # ["aBe", "ABD", "abc"]
 
@@ -108,9 +110,9 @@ sorted([x.lower() for x in L], reverse=True)    # ["abe", "abd", "abc"]
 #                   Python2.6 permette entrambe le tecniche.
 
 
-#c.
+#5. Indice elemento
 #
-# index() ritorna l'indice di un elemento
+#   5.1 index() ritorna l'indice di un elemento
 
 pos = L.index("ABD") #pos = 1
 
