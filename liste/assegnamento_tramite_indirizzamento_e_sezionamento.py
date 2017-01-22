@@ -2,13 +2,13 @@
 #   sul posto, quindi l'oggetto viene modificato direttamente
 #   piuttosto che generare una nuova lista come risultato
 
-#1. assegnamento per indirizzamento
+#1. Assegnamento per indirizzamento
 
 L = ["uno","due","tre","quattro"]
 
 L[0] = "1" # ["1", "due", "tre", "quattro"]
 
-#2. assegnamento per sezionamento
+#2. Assegnamento per sezionamento
 #
 #   pensare al sezionamento diviso in due passi
 #   a. cancellazione elementi indicata a sinistra di =
