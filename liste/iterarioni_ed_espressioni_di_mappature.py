@@ -2,12 +2,12 @@
 
 3 in [1,2,3,4] #True|False
 
-#2. iterazione
+#2. Iterazione lista: for
 
 for x in [1,2,3,4]:
     print(x, end=' ')
 
-#3. mapputura di lista
+#3. Itarazione lista: mapputura di lista
 #
 #   mapputura di lista: meccanimo per crare nuove liste
 #   applicando una espressione ad ogni elemento di una
@@ -22,7 +22,7 @@ for c in "ciao":
     res.append(c*4)
 
 
-#4. funzione map()
+#4. Funzione map()
 #
 #   la funzione map() applica una funzione a ogni elemento
 #   di una sequenza restituendo una nuova lista
