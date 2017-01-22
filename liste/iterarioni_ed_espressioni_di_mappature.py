@@ -13,7 +13,7 @@ for x in [1,2,3,4]:
 #   applicando una espressione ad ogni elemento di una
 #   sequenza: lista, stringa, tupla
 
-res = [c*4 for x in "ciao"] # ["cccc", "iiii", "aaaa", "oooo"]
+res = [c*4 for c in "ciao"] # ["cccc", "iiii", "aaaa", "oooo"]
 
 #lo stesso risultato con ciclo for
 
