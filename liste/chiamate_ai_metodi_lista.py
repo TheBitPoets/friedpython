@@ -1,4 +1,4 @@
-#1. aggiunta in coda di un singolo elemento append()
+#1.1. Aggiunta singola in coda: append()
 #
 # Nota: il metodo append e' preferibile rispetto all'operatore +
 #       in quanto append non deve generare un nuovo oggetto ogni
@@ -8,33 +8,35 @@ L = [1,2,3,4]
 
 L.append(5)         # [1,2,3,4,5]
 
-#2. aggiunta in coda di piu' elementi extend()
+#1.2. Aggiunta multipla in coda: extend()
 
 L.extend([6,7,8])   # [1,2,3,4,5,6,7,8]
 
-#3. aggiunta in posizione arbitraria singolo elemento insert(pos, elem)
+#1.3. Aggiunta in posizione arbitraria: insert()
 #
 #   la insert non elimina, semplicemente aggiunte nella posizione scelta
 #   spostando a destra l'elemento che si trova nella posizione scelta
 
 L.insert(3, "4")    # [1,2,3,'4',4,5,6,7,8]
 
-#4. Rimozione singolo elemento in coda
+#2.1. Rimozione singola in coda: pop()
 
 last = L.pop()      # [1,2,3,'4',4,5,6,7]
 
-#5. Rimozione per posizione
+#2.2. Rimozione singola in posizione arbitraria: pop(i)
 
 third = L.pop(3)    # [1,2,3,4,5,6,7]
 
 
-#6. Rimozione con del
+#2.3. Rimozione singola in posizione arbitraria: del
 
 del L[3]            # [1,2,3,5,6,7] rimozione singola
 
+#2.4. Rimozione multipla in posizione aribitraria: del
+
 del L[0:2]          # [3,5,6,7]     rimozione multipla
 
-#7. Rimozione multipla con sezionamento
+#2.5. Rimozione multipla in posizione arbitraria: sezionamento
 
 L[1:3] = []         # [3,7]
 
