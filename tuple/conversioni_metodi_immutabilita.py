@@ -1,4 +1,5 @@
-# ordinamento tupla
+# ordinamento tupla sort()
+#
 # le tuple non sono mutabile, quindi per ordinare una tupla
 # e' necessario prima trasformala in lista, ordinarla, ricreare
 # una nuova tupla
@@ -7,18 +8,21 @@
 #       una tupla in una lista e viceversa, entrambe le chiamate creano
 #       nuovi oggetti
 
+# 1. sort()
+
 T = (3,1,4,2,9,0)
 tmp = list(T)
 tmp.sort()
 T = tuple(tmp)
 
+# 2. sorted()
 # stessa operazione con sorted()
 # sorted restituisce una lista
 
 T = (3,1,4,2,9,0)
 T = tuple(sorted(T))
 
-# creare liste da tuple con espressioni di mappatura
+# 3. creare liste da tuple con espressioni di mappatura
 #
 # Nota: le espressioni di mappatura ritornano sempre liste, ma possono
 #	iterare su una qualsiasi sequenza (tuple, stringhe e altre liste)
@@ -27,6 +31,8 @@ T = (1,2,3,4,5)
 
 L = [x + 20 for x in T]		# L = [21,22,23,24,25]
 
+# 4. metodi tuple
+#
 # In generale le tuple non hanno gli stessi metodi delle liste e delle stringhe
 # in quanto immutabile. Pero' index e count funzionano lo stesso.
 
