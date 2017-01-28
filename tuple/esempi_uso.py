@@ -1,19 +1,19 @@
-# concatenazione
+#1. concatenazione
 
 T = (1,2) + (3,4)
 print T
 
-# ripetizone
+#2. ripetizone
 
 T = (1,2) * 2		# stampa (1,2,1,2)
 print T
 
-# indicizzazione e sezionamento
+#3. indicizzazione e sezionamento
 
 T = (1,2,3,4)
 TT = T[0], T[1:3]	#stampa (1, (2,3))
 
-# virgole e parentesi
+#4. virgole e parentesi
 #
 # in python le parentesi possono racchiudere anche le espressioni
 # per indicare una tupla con un singolo oggotto bisogna usare la
