@@ -15,7 +15,7 @@ Questo è molto diverso rispetto ad altri linguaggi che studierai già dal pross
 int a = 3
 ```
 
-Quando scriviamo <code>a = 3</code> come fa python a sapere che è sarà un intero?
+Quando scriviamo <code>a = 3</code> come fa python a sapere che <code>a</code> sarà un intero?
 
 <p align="justify">
 La risposta è che <b>python è un linguaggio a tipizzazione dinamica</b>: cioè i tipi vengono determinati dinamicamente durante l'esecuzione e non a seguito di dichiarazione esplicite contenute nel codice sorgente.
@@ -75,6 +75,10 @@ Se alla variabile <code>a</code> viene assegnato un nuovo valore (<code>spam</co
 <img src="https://github.com/TheBitPoets/friedpython/blob/main/images/tipizzazione_dinamica/3.png"></img>
 </p>
 
+Quindi possiamo concludere che: 
+
+> [!IMPORTANT]
+> Quando assegniamo un nuovo valore ad una variabile facciamo puntare la variabile ad un oggetto diverso
 
 
 
