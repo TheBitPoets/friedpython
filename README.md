@@ -48,4 +48,18 @@ a = 3
 Un oggetto ha due campi:
 1. <b>Un designatore di tipo</b> (usato per memorizzare il tipo)
 2. <b>Un contatore di reference</b> (usato per determinare quando si può eliminare dalla memoria un oggetto non referenziato)
+
+## Reference condivise
+
+```python
+a = 3
+b = a
+a = 'spam'
+```
+
+<p align=center>
+<img src="https://github.com/TheBitPoets/friedpython/blob/main/images/tipizzazione_dinamica/2.png"></img>
+</p>
+
+
    
