@@ -29,7 +29,7 @@ Una variabile viene creata la prima volta che le viene assegnato un valore. Asse
 </p>
 
 <p align="justify">
-I tipi non sono associati alle variabili (agli identificatori) ma agli oggetti (l'ffettiva locazione di memoria che contiene il dato) a cui l'identificatore punta (o si riferisce). Esiste dunque una differenza tra i nomi e gli oggetti; quando scriviamo:
+<b>I tipi non sono associati alle variabili (agli identificatori) ma agli oggetti</b> (l'effettiva locazione di memoria che contiene il dato) a cui l'identificatore punta (o si riferisce). Esiste dunque una differenza tra i nomi e gli oggetti; quando scriviamo:
 </p>
 
 ```python
@@ -38,11 +38,14 @@ a = 3
 
 1. Crea l'oggetto (spazio in memoria) per contenere il valore <code>3</code>
 2. Crea la variabile (il nome o identificare) <code>a</code> (se non esiste già)
-3. Collega la variabile <code>a</code> all'oggetto che contiene il valore <code>3</code>
+3. Collega la variabile <code>a</code> all'oggetto che contiene il valore <code>3</code>. Questo collegamento è detto <b>refence</b>
 
 
 <p align=center>
 <img src="https://github.com/TheBitPoets/friedpython/blob/main/images/tipizzazione_dinamica/1.png"></img>
 </p>
 
-
+Un oggetto ha due campi:
+1. <b>Un designatore di tipo</b> (usato per memorizzare il tipo)
+2. <b>Un contatore di reference</b> (usato per determinare quando si può eliminare dalla memoria un oggetto non referenziato)
+   
