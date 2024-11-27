@@ -24,21 +24,21 @@
 # apici tripli  """testo"""
 # stringhe raw  r"testo"
 
-print "uso i doppi se inserisco nella stringa ' "
-print 'uso i singoli se inserisco nella stringa "" '
+print("uso i doppi se inserisco nella stringa ' ")
+print('uso i singoli se inserisco nella stringa "" ')
 
 # concatenazione implicita
 
-print "questo " "e' del " 'testo' " concatenato"
+print("questo " "e' del " 'testo' " concatenato")
 
 # sequenze di escape: permettono di inserire nel testo
 #                     caratteri non stampabili
 
-print "tabulazione \t a capo \n e tanti altri"
+print("tabulazione \t a capo \n e tanti altri")
 
-print "per stampare una backslash raddoppio in questo modo \\ "
+print("per stampare una backslash raddoppio in questo modo \\ ")
 
-print "se python non riconosce la sequenza di escape la ignora, \p non esiste "
+print("se python non riconosce la sequenza di escape la ignora, \p non esiste ")
 
 # stringhe raw: non vengono interpretate le squenze di escape
 
@@ -48,14 +48,14 @@ path = r"C:\new\text.dat"#stringa raw, \n non viene interpretato come sequenza e
 # Nota: per indicare i percorsi dei file sia sotto unix che windows
 #       e' possibile utilizzare | al posto di \ o /
 
-# Nota: una stringa raw non può terminare con un numero dispari di \
+# Nota: una stringa raw non puÃ² terminare con un numero dispari di \
 
 # apici tripli
 
 
-print """
+print("""
     con gli apici tripli
     costrusco la stringa quando la scrivo
     senza preoccuparmi di inserire sequenza di escape
     per tabulazione o a capo
-"""
+""")
